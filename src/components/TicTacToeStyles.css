@@ -1,0 +1,12 @@
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 12px;
+}
+.box {
+    width: auto;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+}
