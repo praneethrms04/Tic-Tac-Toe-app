@@ -100,6 +100,7 @@ const TicTacToe = () => {
           </Button>
         </div>) :(
             <div className="text-warning p-3">
+            <h1 className="text-warning">Tic Tac Toe Game</h1>
               <h2>{iscross ? "Cross" : "Circle"} Turn</h2>
             </div>
         )
