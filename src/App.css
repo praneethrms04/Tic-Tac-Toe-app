@@ -2,3 +2,15 @@
   text-align: center;
 }
 
+.grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 2rem;
+}
+
+.box {
+  width: auto;
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+}
